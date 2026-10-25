@@ -1,0 +1,22 @@
+# Quartus build output
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+*.qws
+
+# backups / local files
+*.bak
+*.orig
+c5_pin_model_dump.txt
+
+# local Quartus project / files not part of the core
+*.qpf
+*.qsf
+*.qip
+*.hex
+*.mif
+mem_d.v
+clockworks.v
+emitter_uart.v
+riscv_assembly.v
